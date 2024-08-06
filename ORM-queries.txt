@@ -1,0 +1,78 @@
+Retrieve:- all(), get(), filter(), exclude()
+----------
+
+Entry.objects.filter(pub_date__year=2006)
+Entry.objects.all().filter(pub_date__year=2006)
+
+Entry.objects.filter(headline__startswith="What").exclude(pub_date__
+gte=datetime.date.today()).filter(pub_date__gte=datetime.date(2005,1,30))
+
+
+Entry.objects.all()[:5] --- limit 5
+Entry.objects.all()[5:10] --- offset 5 limit 5
+Negative indexing is not supported
+
+
+Entry.objects.order_by("headline")[0:1].get()
+
+
+Field lookups:- field__lookuptype=value
+---------------
+
+Entry.objects.filter(pub_date__lte='2006-02-02')
+Entry.objects.get(headline__exact="Cat bites dog")
+
+exact = case-senstivie
+iexact = case-insensitive
+
+contains = case-senstive
+icontains = case-insenistive
+
+startswith = case-sensitive
+istartswith = case-insensitive
+
+endswith = case-sensitive
+iendswith = case-insensitive
+
+
+Lookups that span relationships:-
+---------------------------------
+
+Entry.objects.filter(blog__name='Beatles Blog')
+
+               blog = table name
+               name = field name
+
+Blog.objects.filter(entry__headline__contains='Lennon')
+
+
+Blog.objects.filter(entry__authors__name="Lennon")
+Blog.objects.filter(entry__authors__name__isnull=True)
+Blog.objects.filter(entry__authors__isnull=True, entry__authors__name__isnull=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

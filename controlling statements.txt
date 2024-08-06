@@ -1,0 +1,64 @@
+1. Write a Python program to find those numbers which are divisible by 7 and multiples of 5, between 1500 and 2700 (both included)
+
+2. Write a Python program to convert temperatures to and from Celsius and Fahrenheit1.
+
+3. Write a Python program to guess a number between 1 and 91.
+
+4. Write a Python program to construct the following pattern, using a nested for loop1.
+
+5. Write a Python program that accepts a word from the user and reverses it1.
+
+6. Write a Python program to count the number of even and odd numbers in a series of numbers1.
+
+7. Write a Python program that prints each item and its corresponding type from the following list1.
+
+8. Write a Python program that prints all the numbers from 0 to 6 except 3 and 61.
+
+9. Write a Python program to get the Fibonacci series between 0 and 501.
+
+10. Write a Python program that iterates the integers from 1 to 50. For multiples of three print “Fizz” instead of the number and for multiples of five print "Buzz"1
+
+11. Print all natural numbers from 1 to n using a for loop12.
+
+12. Print all even numbers between 1 to 100 using a for loop2.
+
+13. Print all odd numbers between 1 to 100 using a for loop2.
+
+14. Print the sum of all even numbers between 1 to n using a for loop2.
+
+15. Print the sum of all odd numbers between 1 to n using a for loop2.
+
+16. Print the multiplication table of a given number using a for loop12.
+
+17. Count the total number of digits in a number using a for loop2.
+
+18. Print the sum of digits of a given number using a for loop2.
+
+19. Print all natural numbers in reverse order using a for loop2.
+
+20. Check whether a given number is Prime or not using a for loop2.
+
+21. Print all Prime numbers between 1 to n using a for loop2.
+
+22. Find the sum of all prime numbers between 1 to n using a for loop2.
+
+23. Check whether a given number is Armstrong or not using a for loop2.
+
+24. Print all Armstrong numbers between 1 to n using a for loop2.
+
+25. Check whether a given number is Perfect or not using a for loop2.
+
+26. Check all Perfect numbers between 1 to n using a for loop2.
+
+27. Check whether a given number is Strong number or not using a for loop2.
+
+28. Print all Strong numbers between 1 to n using a for loop2.
+
+29. Find the power of a number without using pow method using a for loop2.
+
+30. Print Fibonacci series of a given number using recursion with a for loop2.
+
+
+1234567890- 
+/*-+9874563210.
+20:19 04-10-202320:19 04-10-2023

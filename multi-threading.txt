@@ -1,0 +1,22 @@
+https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/Threading
+
+Multi Threading
+---------------
+
+-> Thread is a function
+-> Multiple tasks in single time
+-> Thread is a special flow of execution. Thread has a tasks.
+   import threading
+   t = threading.current_thread().getName()    ----setName()
+   print(t)
+
+Creating a thread
+-----------------
+
+from threading import Thread
+
+t = Thread(target=disp, args=(10,20)------creating the def passing with args
+t.start()
+
+# thread class methods -> start(), run(), join()
+

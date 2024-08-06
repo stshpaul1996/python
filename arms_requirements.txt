@@ -1,0 +1,9 @@
+Application login
+1. Trip Expenses Report
+entities: trip, member, reports: expense report per trip, all trips(search by tripname), Individual Amount Report/tripid/memberid/. APIS: add a member to trip, add an expense to trip.
+
+IAM
+-> Add authentication using IAM(develop the seperate project)
+-> Every model in the project should have createdby, updatedby, createdate, updatedate
+-> adding one column to the usertable(we need to overide the existing usertable)
+-> make sure that you are using atleast one abstract model
